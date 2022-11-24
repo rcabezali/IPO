@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    font-size: 100%;
+}
+
+p {
+    margin: 3%;
+}
+
+header {
+  padding: 60px;
+  text-align: center;
+  background-image: url("/img/background.jpg");
+  color: white;
+  font-size: 30px;
+}
+
+header nav ul li a{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+h2, h3, h4, h5, h6 {
+    padding: auto;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.grad {
+    height: 10px;
+    margin: 2%;
+    background-color: #ffffff;
+    background-image: radial-gradient(blue, black);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #b9d8ff;
+}
+
+.mando {
+    border: 1px solid #999999;
+    border-radius: 1rem;
+    width: 29%;
+    display: inline-block;
+    padding: 1.2rem 1.4rem;
+}
+
+.mando h6 {
+    font-size: 1.2rem;
+}
+
+.mando img {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.mando .precio {
+    text-align: center;
+    padding-top: 1rem;
+    color: #750505;
+}
+
+.mando button {
+    padding: 1rem;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+footer{
+    text-align: right;
+    font-weight: bold;
+}
